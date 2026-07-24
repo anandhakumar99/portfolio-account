@@ -13,7 +13,7 @@ const projects = [
   {
     tech: "React JS",
     thumbnail: "/assets/portfolio-website.jpg",
-    github: "https://github.com/anandhakumar99/portfolio.git",
+    github: "https://github.com/anandhakumar99/portfolio-account",
   },
 ];
 
