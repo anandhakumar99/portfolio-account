@@ -27,8 +27,7 @@ export default function ContactSection() {
         const phone = "916380657095";
 
         // Build plain text then encode it so special characters/newlines are handled correctly
-        const text = `Hii, I Am Anandhakumar , Thank You Visiting Our 
-        Website , Your Name ${form.name}\n\n${form.message}`;
+        const text = `Hii, I Am Anandhakumar , Thank You Visiting Our Website , Your Name : ${form.name}\n\n${form.message}`;
         const encoded = encodeURIComponent(text);
 
         // Detect mobile user agents to choose the best WhatsApp URL
