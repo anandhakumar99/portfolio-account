@@ -248,9 +248,9 @@ bg-[length:200%_auto]
 bg-gradient-to-r
 from-white via-white/60 to-white
 animate-[shine_4s_linear_infinite]">
-                Thank You
+                Thank You For
                 <br />
-                Visiting Our
+                Visiting My
                 <br />
                 Website.
               </p>
@@ -265,7 +265,7 @@ animate-[shine_4s_linear_infinite]">
     bg-gradient-to-r
     from-white via-white/60 to-white
     animate-[shine_4s_linear_infinite]">
-                  I Am Junior SoftWare Developer{" "} <br />
+                  I Am Frasher , SoftWare Developer{" "} <br />
                   <em className="not-italic text-white">
                    And Frontend Developer.
                   </em>

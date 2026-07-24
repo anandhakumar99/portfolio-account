@@ -122,7 +122,7 @@ export default function FrontendDeveloperSection() {
     from-white via-white/60 to-white
     animate-[shine_4s_linear_infinite]"
         >
-          To Obtain a meaningful and challenging position that enables me to provide my 
+          To Obtain a meaningful and challenging position that enables me to provide  
           my innovative skills and allows for upgrading my knowledge for my career progress.
         </motion.p>
 

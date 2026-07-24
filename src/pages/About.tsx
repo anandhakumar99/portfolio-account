@@ -818,7 +818,7 @@ export default function About() {
               "
             >
               <p>
-                Hi, I'm Anandhakumar M, a B.Sc. Computer Science graduate with a strong interest 
+                Hi, I'm Anandhakumar M, Iam B.Sc. Computer Science graduate with a strong interest 
                 in web development and software development.
               </p>
 
