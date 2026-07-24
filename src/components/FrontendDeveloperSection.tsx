@@ -122,8 +122,8 @@ export default function FrontendDeveloperSection() {
     from-white via-white/60 to-white
     animate-[shine_4s_linear_infinite]"
         >
-          Building modern websites with clean, responsive, elegant interfaces.
-          Turning ideas and designs into engaging digital experiences.
+          To Obtain a meaningful and challenging position that enables me to provide my 
+          my innovative skills and allows for upgrading my knowledge for my career progress.
         </motion.p>
 
         <motion.div

@@ -24,14 +24,22 @@ export default function ContactSection() {
     const handleSend = () => {
         if (!form.name || !form.message) return;
 
-        const text = `Hello ,I Am Anandhakumar ${form.name}%0A%0A${form.message}`;
-
         const phone = "916380657095";
 
-        window.open(
-            `https://web.whatsapp.com/${phone}?text=${text}`,
-            "_blank"
+        // Build plain text then encode it so special characters/newlines are handled correctly
+        const text = `Hello, I am Anandhakumar ${form.name}\n\n${form.message}`;
+        const encoded = encodeURIComponent(text);
+
+        // Detect mobile user agents to choose the best WhatsApp URL
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+            navigator.userAgent
         );
+
+        // Prefer the app-friendly API for mobile, and web.whatsapp for desktop
+        const base = isMobile ? "https://api.whatsapp.com" : "https://web.whatsapp.com";
+        const url = `${base}/send?phone=${phone}&text=${encoded}`;
+
+        window.open(url, "_blank");
     };
 
 

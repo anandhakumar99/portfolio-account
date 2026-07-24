@@ -479,7 +479,7 @@ export default function About() {
                         </div>
                         <div class="contact-item">
                             <span class="contact-icon">🆆</span>
-                            <a href="" target="_blank">Portfolio Website</a>
+                            <a href="https://portfolio-ak-six.vercel.app/" target="_blank">Portfolio Website</a>
                         </div>
                         <div class="contact-item">
                             <span class="contact-icon">⛆</span>

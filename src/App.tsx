@@ -21,7 +21,7 @@ export default function App() {
   const [time, setTime] = useState("");
   const [mobileMenu, setMobileMenu] = useState(false);
 
-  const text = "Anandhakumar ";
+  const text = "Anandhakumar";
   const [displayed, setDisplayed] = useState("");
   const [colorMode, setColorMode] = useState(0);
 
@@ -230,7 +230,7 @@ export default function App() {
             <div className="relative z-10 w-full h-full flex flex-col justify-between px-6 md:px-12 pt-24 pb-10">
               <h1
                 onClick={() => setColorMode((prev) => (prev + 1) % colors.length)}
-                className={`font-display uppercase leading-[0.85] tracking-[-0.03em] text-[22vw] md:text-[14vw] lg:text-[13rem] cursor-pointer transition-all duration-300 ${colors[colorMode]}`}
+                className={`font-display font-medium uppercase leading-[0.85] tracking-[-0.03em] text-[22vw] md:text-[14vw] lg:text-[13rem] cursor-pointer transition-all duration-300 ${colors[colorMode]}`}
               >
                 {displayed || "\u00A0"}
               </h1>
